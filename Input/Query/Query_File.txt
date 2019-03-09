@@ -1,0 +1,4 @@
+SCN_NO|SCN_DESC|ARGUMENTS|QUERY
+1|Where Single column |TableName,ColumnName_1,Where_Condition|"Select * from %t1% where %where_condition% "
+2|Join |TableName_1,TableName_2, Join_condition|"Select * from %t1% %join% %t2% on %join_condition% "
+3|Join - with where |TableName_1,TableName_2 Join_condition,Where_Condition|"Select * from %t1% %join% %t2% on %join_condition% where %where_condition%"
